@@ -1,0 +1,60 @@
+/*layout styles*/
+#logo {
+	width: 80px;
+}
+
+header nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 16px
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+header, section, footer, aside, article {
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+
+section {
+	border: 5px solid plum;
+}
+/*footer start*/
+footer {
+	/*delete later*/
+	border: 5px solid magenta;
+	background-color: #1e2121;
+	text-align: center;
+	font-style: Arial; 
+
+}
+
+
+footer nav ul li {
+	float: none;
+	display: inline-block;
+	margin: auto;
+	padding: 10
+}
+
+
+
+/*footer end*/
+aside {
+	border: 5px solid orange;
+}
+
+article {
+	border: 5px solid cornflowerblue;
+}
+
+nav {
+	border: 5px solid seagreen;
+}
